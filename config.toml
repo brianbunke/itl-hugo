@@ -7,7 +7,7 @@ theme = "infinity-hugo"
 
     # Navigation
     [params.navigation]
-        logo = "images/logo.png"
+        logo = "images/tag-logo.png"
         home = "Home"
         about = "About"
         service = "Services"
