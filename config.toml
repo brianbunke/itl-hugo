@@ -18,7 +18,7 @@ theme = "infinity-hugo"
         enable      = true
         bg          = "images/header-bg.jpg"
         title       = "HUNGRY?"
-        subtitle    = "Join us at the next IT Leadership lunch, every second Wednesday. Grab a recurring calendar reminder!"
+        subtitle    = "Join us at the next IT Leadership lunch, every second Wednesday. \n\n Grab a recurring calendar reminder!"
         btnText     = "Get Started"
         countdownYear = "2020"
         countdownMonth = "02"
@@ -28,7 +28,7 @@ theme = "infinity-hugo"
     [params.about]
         enable      = true
         heading     = "Join IT leaders to share questions, solutions, ideas and more in a casual lunch environment."
-        description = "The IT Leadership group was founded to better connect the IT community in Whatcom and Skagit counties. \n\n We meet monthly in Bellingham, WA, at [Brandywine Kitchen](http://www.brandywinekitchen.com) in the upstairs mezzanine."
+        description = "The IT Leadership group was founded to better connect the IT community in Whatcom and Skagit counties. We welcome both current and aspirational IT leaders to gather informally and connect. \n\n We meet monthly in Bellingham, WA, at [Brandywine Kitchen](http://www.brandywinekitchen.com) in the upstairs mezzanine."
 
         [[params.about.sliderItem]]
             image   = "images/about/map.png"
