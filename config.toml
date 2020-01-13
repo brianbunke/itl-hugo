@@ -31,6 +31,7 @@ theme = "infinity-hugo"
 
         [[params.about.sliderItem]]
             image   = "images/about/map.png"
+            url     = "https://goo.gl/maps/2G5CPEWWUHa7Xth77"
         #[[params.about.sliderItem]]
             #image   = "images/about/2.jpg"
         
