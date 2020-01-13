@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:IT Leadership Lunch
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200112T233140Z
+UID:20200112T233140Z-1651782020@marudot.com
+DTSTART;TZID=America/Los_Angeles:20200108T120000
+DTEND;TZID=America/Los_Angeles:20200108T133000
+RRULE:FREQ=MONTHLY;INTERVAL=1;BYDAY=2WE
+SUMMARY:IT Leadership Lunch
+DESCRIPTION:https://itl.tagnw.org\n\nWe start at noon and usually chat until 1 or 1:30. Order food at the counter\, and meet us upstairs in the mezzanine area.\n\nParking is ~$1.50. If you don't find street parking\, there's usually a spot across the street from Brandywine in the Commercial St. parking garage\, on the lowest level.\n\nQuestions? me@brianbunke.com
+LOCATION:Brandywine Kitchen\, 1317 Commercial St\, Bellingham\, WA 98225\, USA
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IT Leadership Lunch
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
