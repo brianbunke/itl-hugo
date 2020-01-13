@@ -16,7 +16,7 @@ theme = "infinity-hugo"
     # Hero Area
     [params.hero]
         enable      = true
-        bg          = "images/header-bg.jpg"
+        bg          = "images/cf.jpg"
         title       = "HUNGRY?"
         subtitle    = 'Join us at the next IT Leadership lunch, every second Wednesday. <br> Grab a recurring calendar reminder!'
         countdownYear = "2020"
