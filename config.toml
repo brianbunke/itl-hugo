@@ -37,10 +37,10 @@ theme = "infinity-hugo"
         
     # Call to Action Section
     [params.cta]
-        enable      = false
-        bg          = "images/call-to-action.jpg"
-        title       = "Subscribe to our mailing list"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+        enable      = true
+        #bg         = "images/call-to-action.jpg"
+        title       = "Join the mailing list"
+        subtitle    = "Used sparingly for meeting updates only"
 
     [params.contact]
         enable      = true
