@@ -481,12 +481,11 @@ a:active {
 }
 
 .call-to-action .block p {
-  padding-right: 30px;
   color: #fff;
 }
 
 .call-to-action .block .input-group {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .call-to-action .block .input-group input {
